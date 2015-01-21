@@ -1,0 +1,16 @@
+<html ng-app="guitarApp">
+<head>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+<body ng-controller="guitarList">
+
+  <ul>
+    <li ng-repeat="guitar in guitars">
+      <span>{{guitar.name}}</span>
+      <p>{{guitar.snippet}}</p>
+    </li>
+  </ul>
+
+</body>
+</html>
