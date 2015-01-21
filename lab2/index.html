@@ -12,5 +12,12 @@
     </li>
   </ul>
 
+  <p><button ng-mouseover="count = count + 10" ng-init="count=0">
+  Increment (when mouse is over)
+</button></p>
+count: {{count}}
+<p><input ng-keydown="count = count + 1" ng-init="count=0">
+key down count: {{count}}</p>
+
 </body>
 </html>
