@@ -5,7 +5,7 @@ function playSound(argSound)
     if (argSound == 'wrong')
     {
     	console.log("wrong");
-    	filepath='wrong.mp3'
+    	filepath='wrong_dis.mp3'
     }
 
     if (argSound == 'right')
