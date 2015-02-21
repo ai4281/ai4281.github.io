@@ -72,7 +72,7 @@ function init()
 	scene.add(group4);
 	scene.add(group5);
 
-	renderer = new THREE.CanvasRenderer();
+	renderer = new THREE.WebGLRenderer();
 	renderer.setClearColor( 0x000000 );
 	renderer.setSize( window.innerWidth, window.innerHeight );
 
